@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity-engine-xml>
+    <SecurityPermission description="View operations in the obol Component." permissionId="obol_VIEW"/>
+    <SecurityPermission description="Create operations in the obol Component." permissionId="obol_CREATE"/>
+    <SecurityPermission description="Update operations in the obol Component." permissionId="obol_UPDATE"/>
+    <SecurityPermission description="Delete operations in the obol Component." permissionId="obol_DELETE"/>
+    <SecurityPermission description="ALL operations in the obol Component." permissionId="obol_ADMIN"/>
+
+    <SecurityGroupPermission groupId="SUPER" permissionId="obol_ADMIN"/>
+
+</entity-engine-xml>
