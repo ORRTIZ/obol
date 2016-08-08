@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity-engine-xml>
+    <SecurityGroupPermission groupId="FULLADMIN" permissionId="obol_ADMIN"/>
+    <SecurityGroupPermission groupId="FLEXADMIN" permissionId="obol_CREATE"/>
+    <SecurityGroupPermission groupId="FLEXADMIN" permissionId="obol_DELETE"/>
+    <SecurityGroupPermission groupId="FLEXADMIN" permissionId="obol_UPDATE"/>
+    <SecurityGroupPermission groupId="FLEXADMIN" permissionId="obol_VIEW"/>
+    <SecurityGroupPermission groupId="VIEWADMIN" permissionId="obol_VIEW"/>
+    <SecurityGroupPermission groupId="BIZADMIN" permissionId="obol_ADMIN"/>
+</entity-engine-xml>
